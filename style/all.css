@@ -1,14 +1,18 @@
 body{
   background-color:  #EFEFF2;
-  margin: 0;
   color: #19191C;
   font: 400 18px/28px Inter, sans-serif; 
+}
+
+.container{
+  padding: 36px 240px 0;
+  background: url(../img/men-offer.png) 85% 100% no-repeat, url(../img/Rectangle-offer.png) 83% 100% no-repeat, url(../img/Ellipse-offer3.png) 75% 120% no-repeat, url(../img/Ellipse-offer1.png) 100% 35% no-repeat, url(../img/Ellipse-offer2.png) 0% 20% no-repeat;
 }
 
 header{
   display: flex;
   justify-content: space-between;
-  padding: 40px 230px;
+  /* padding: 40px 230px; */
 }
 
 .header_box{
@@ -20,7 +24,7 @@ header{
 
 .nav_list{
   display: flex;
-  list-style: none;
+  /* list-style: none; */
   gap: 50px;
   font-size: 18px;
   line-height: 22px;
@@ -41,13 +45,13 @@ header{
   display: flex;
   gap: 15px;
   color: #19191C;
-  text-decoration: none;
+  /* text-decoration: none; */
   align-items: center;
 }
 
 .link{
   color: #19191C;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .header_link,
@@ -56,7 +60,7 @@ header{
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .header_btn{
@@ -70,62 +74,60 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 0px 230px;
-  background: url(../img/men-offer.png) 85% 130% no-repeat, url(../img/Rectangle-offer.png) 84% 106% no-repeat, url(../img/Ellipse-offer3.png) 75% 135% no-repeat, url(../img/Ellipse-offer1.png) 100% 35% no-repeat;
+  padding-top: 186px;
+  /* background: url(../img/men-offer.png) 85% 130% no-repeat, url(../img/Rectangle-offer.png) 84% 106% no-repeat, url(../img/Ellipse-offer3.png) 75% 135% no-repeat; */
   position: relative;
 }
 
 .offer_holder{
-  width: 650px;
-  padding: 150px 0px 0px 230px;
-  background: url(../img/Ellipse-offer2.png) 25% 20% no-repeat;
+  /* width: 650px; 
+  padding: 150px 0px 0px 230px; 
+  background: url(../img/Ellipse-offer2.png) 25% 20% no-repeat; */
+  margin-bottom: 230px;
 }
 
 .offer_title{
   font-size: 58px;
   line-height: 78px;
   font-weight: 700;
-  margin: 0px 0px 20px;
+  margin: 0px 0px 18px;
+  width: 54%;
 }
 
-.offer_description{
+/* .offer_description{
   margin: 0px 0px 60px;
-}
+} */
 
 .offer_link{
   font-weight: 700;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #504DEE;
 }
 
 .button{
   background: #504DEE;
   color: #FBFBFC;
-  border: none;
+  /* border: none; */
   padding: 16px 37px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  margin: 0px 0px 110px;
+  margin: 62px 0 110px 0;
 }
 
 .offer_sale{
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
-  margin: 0;
 }
 
 .offer_time{
   line-height: 22px;
   font-weight: 700;
-  margin: 0;
 }
 
 .offer_list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  /* list-style: none; */
   flex-grow: 1;
   position: relative;
 }
@@ -140,45 +142,48 @@ header{
 }
 
 .offer_marketer{
-  top: 190px;
-  right: 235px;
+  top: -20px;
+  right: 5px;
 }
 
 .offer_illustration{
-  top: 100px;
-  right: 430px;
+  top: -90px;
+  right: 300px;
 }
 
 .offer_animator{
-  top: 160px;
-  right: 695px;
+  top: 0px;
+  right: 555px;
 }
 
 .offer_programmer{
-  top: 300px;
-  right: 820px;
+  top: 150px;
+  right: 620px;
 }
 
 .offer_designer{
-  top: 485px;
-  right: 945px;
+  top: 345px;
+  right: 745px;
 }
 
 .offer_photographer{
-  top: 685px;
-  right: 860px;
+  top: 525px;
+  right: 660px;
 }
 
 .learn{
   background-color: #19191C;
   display: flex;
-  padding: 168px 0px;
+  padding: 168px 244px 159px 240px;
 }
 
 .learn_text{
-  width: 580px;
-  margin-right: 190px;
-  padding-left: 240px;
+  /* width: 580px; */
+  /* margin-right: 190px;
+  padding-left: 240px; */
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 .learn_title,  
@@ -189,17 +194,22 @@ header{
  line-height: 70px;
 }
 
+.learn_description{
+  width: 77%;
+}
+
 .learn_counters{
   display: flex;
+  gap: 86px;
 }
 
-.learn_counter-number{
+/* .learn_counter-number{
   margin-bottom: 15px;
-}
+} */
 
-.learn_counter-item1{
+/* .learn_counter-item1{
   margin: 0 86px 0 86px;
-}
+} */
 
 .learn_counter-description,
 .learn_description{
@@ -207,6 +217,10 @@ header{
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+
+.learn_counter-description{
+  margin: 10px 0 22px 0;
 }
 
 .underline{
@@ -218,56 +232,63 @@ header{
 .discover{
   display: flex;
   flex-direction: column;
-  padding: 168px 0px;
+  padding: 168px 240px;
+  background: #FBFBFC;
 }
 
 .discover_title{
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
-  width: 600px;
-  padding-left: 240px;
+  width: 50%;
+  /* width: 600px; */
+  /* padding-left: 240px; */
 }
 
 .discover_list{
-  list-style-type: none;
+  display: flex;
+  gap: 48px;
 }
 
 .disc_list{
   display: flex;
-  flex-direction: row;
-  padding-left: 240px;
+  align-items: baseline;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* padding-left: 240px; */
 }
 
 .discover_button_popular{
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  border: none;
-  margin-left: -39px;
+  border-bottom: 4px solid #19191C;
+  padding-bottom: 9px;
+  /* border: none; */
+  /* margin-left: -39px; */
 }
 
 .discover_button{
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  border: none;
+  /* border: none; */
 }
 
-.underline_{
+/* .underline_{
   width: 67px; 
   height: 4px; 
   background-color: #19191C; 
   margin-left: -34px;
-}
+} */
 
 .see_more{
   color: #19191C;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  text-decoration: none;
-  margin-left: 415px;
+  /* text-decoration: none; */
+  /* margin-left: 415px; */
   display: flex;
   align-items: center;
 }
@@ -290,33 +311,37 @@ header{
 }
 
 .discover_cards{
-  margin-top: 65px;
+  margin-top: 56px;
   display: flex;
-  flex-direction: row;
-  padding-left: 240px;
+  gap: 20px;
+  /* flex-direction: row; */
+  /* padding-left: 240px; */
 }
 
-.discover_card-item{
+/* .discover_card-item{
   margin-left: 20px;
-}
+} */
 
 .find-programm{
   background-color: #DEEFE4;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 168px 0px;
+  align-items: baseline;
+  /* flex-direction: row;
+  justify-content: space-between; */
+  padding: 168px 240px;
 }
 
-.find-programm_text{
+/* .find-programm_text{
   width: 800px;
   margin-left: 240px;
-}
+} */
 
 .find-programm_title{
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
+  margin-bottom: 28px;
+  /* width: 115%; */
 }
 
 .find-programm_description{
@@ -327,27 +352,32 @@ header{
 
 .find-programm_button{
   background-color: #19191C;
-  width: 144px;
-  height: 54px;
-  border: none;
-}
-
-.find-programm_button_text{
   color: #FBFBFC;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
+  padding: 16px 36px;
+  /* width: 144px;
+  height: 54px;
+  border: none; */
 }
 
-.find-programm_form{
+/* .find-programm_button_text{
+  color: #FBFBFC;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+} */
+
+/* .find-programm_form{
   margin-right: 250px;
-}
+} */
 
 .input{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 95px;
+  /* margin-top: 95px; */
 }
 
 .input1,
@@ -490,93 +520,7 @@ footer {
     font-weight: 400;
     line-height: 28px;
   }
-  @media (max-width: 1715px){
-    .offer_marketer{
-      top: 190px;
-      right: 95px;
-    }
-    
-    .offer_illustration{
-      top: 100px;
-      right: 290px;
-    }
-    
-    .offer_animator{
-      top: 160px;
-      right: 555px;
-    }
-    
-    .offer_programmer{
-      top: 300px;
-      right: 680px;
-    }
-    
-    .offer_designer{
-      top: 485px;
-      right: 805px;
-    }
-    
-    .offer_photographer{
-      top: 685px;
-      right: 720px;
-    }
-  
-    .offer_holder{
-      padding-left: 120px;
-    }
-  
-    header{
-      padding: 40px 120px;
-  
-    }
-  }
-  
-  @media (max-width: 1410px){
-    .offer_marketer{
-      top: 660px;
-      right: 85px;
-    }
-    
-    .offer_illustration{
-      top: 550px;
-      right: 290px;
-    }
-    
-    .offer_animator{
-      top: 610px;
-      right: 535px;
-    }
-    
-    .offer_programmer{
-      top: 770px;
-      right: 700px;
-    }
-    
-    .offer_designer{
-      top: 955px;
-      right: 795px;
-    }
-    
-    .offer_photographer{
-      top: 1120px;
-      right: 725px;
-    }
-  
-    .offer_holder{
-      padding:80px 0 400px 120px;
-    }
-  
-    header{
-      padding: 40px 120px;
-  
-    }
-  }
 
-  @media (max-width: 1130px) {
-    header{
-      padding-right: 30px;
-    }
-  }
 
   
 
