@@ -90,6 +90,7 @@ header{
 }
 
 .offer_description{
+    color: #19191C;
     margin-top: 32px;
     margin-bottom: 12px;
 }
@@ -100,6 +101,7 @@ header{
 }
 
 .offer_description_{
+    color: #19191C;
     margin-top: 48px;
     width: 35%;
 }
