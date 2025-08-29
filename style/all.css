@@ -431,3 +431,472 @@ footer {
   font-weight: 400;
   line-height: 28px;
 }
+
+@media screen and (min-width: 100px) {
+
+  .container{
+    background: none;
+    padding: 30px 30px 0;
+  }
+
+  header{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .header_box{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav_list{
+    gap: 20px;
+  }
+
+  .btn-box{
+    gap: 20px;
+  }
+
+  .header_btn{
+    padding: 16px;
+  }
+
+  .offer{
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .offer_holder{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer_title{
+    width: 100%;
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .offer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .offer_list > li{
+    position: static;
+    text-align: center;
+  }
+
+  .button{
+    margin: 30px 0;
+  }
+
+  .learn{
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .learn_description{
+    width: 100%;
+  }
+
+  .learn_counters{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .discover{
+    padding: 30px;
+  }
+
+  .discover_title{
+    width: 100%;
+  }
+
+  .disc_list{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .discover_list{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .discover_cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discover_card-item > img{
+    width: 260px;
+  }
+
+  .find-programm{
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .find-programm_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input1, .input2{
+    width: 260px;
+  }
+
+  .find-programm_button{
+    display: flex;
+  }
+
+  footer{
+    padding: 30px 30px 0;
+  }
+
+  .footer-main{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .sitemap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sitemap_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-copyright{
+    margin-left: 0;
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .pp{
+    margin: 0;
+  }
+
+  .info_box3{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 666px){
+
+  header{
+    flex-direction: row;
+  }
+
+  .offer_list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .offer_holder{
+    align-items: start;
+  }
+
+  .discover_cards{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .discover_list{
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px){
+
+  .header_box{
+    flex-direction: row;
+  }
+
+  .nav_list{
+    gap: 15px;
+  }
+
+  .offer_title{
+    font-size: 58px;
+    line-height: 78px;
+  }
+
+  .learn_counters{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .discover_cards{
+    gap: 18px;
+  }
+
+  .discover_card-item > img{
+    width: 345px;
+  }
+
+  .find-programm{
+    align-items: start;
+  }
+
+  .find-programm_form{
+    align-items: start;
+  }
+
+  .input1, .input2{
+    width: 710px;
+  }
+
+  .footer-main{
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sitemap{
+    align-items: start;
+  }
+
+  .sitemap_list{
+    align-items: start;
+  }
+
+  .footer-copyright{
+    flex-direction: row;
+  }
+
+  .info_box3{
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .container{
+    padding: 36px 60px 0;
+    background: url(../img/men-offer.png) 85% 100% no-repeat, url(../img/Rectangle-offer.png) 83% 100% no-repeat, url(../img/Ellipse-offer3.png) 75% 135% no-repeat, url(../img/Ellipse-offer1.png) 100% 35% no-repeat, url(../img/Ellipse-offer2.png) -50% 20% no-repeat;
+  }
+
+  .header_box{
+    gap: 70px;
+  }
+
+  .nav_list{
+    gap: 50px;
+  }
+
+  .btn-box{
+    gap: 50px;
+  }
+
+  .offer{
+    align-items: start;
+    padding-top: 186px;
+    flex-direction: row;
+  }
+
+  .offer_holder{
+    margin-bottom: 300px;
+  }
+
+  .offer_title{
+    width: 54%;
+    font-size: 35px;
+  }
+
+  .offer_list{
+    display: block;
+  }
+
+  .offer_list > li{
+    position: absolute;
+  }
+
+  .offer_illustration{
+    top: -90px;
+    right: 210px;
+  }
+
+  .offer_animator{
+    top: 0px;
+    right: 390px;
+  }
+
+  .offer_programmer{
+    top: 150px;
+    right: 440px;
+  }
+
+  .offer_designer{
+    top: 380px;
+    right: 560px;
+  }
+
+  .offer_photographer{
+    top: 540px;
+    right: 540px;
+  }
+
+  .learn{
+    padding: 60px;
+    flex-direction: row;
+  }
+
+  .discover{
+    padding: 60px;
+  }
+
+  .discover_title{
+    width: 78%;
+  }
+
+  .disc_list{
+    flex-direction: row;
+  }
+
+  .find-programm{
+    padding: 60px;
+  }
+
+  footer{
+    padding: 60px 60px 0;
+  }
+  
+}
+
+@media screen and (min-width: 1360px) {
+
+  .container{
+    background: url(../img/men-offer.png) 85% 100% no-repeat, url(../img/Rectangle-offer.png) 83% 100% no-repeat, url(../img/Ellipse-offer3.png) 75% 135% no-repeat, url(../img/Ellipse-offer1.png) 100% 35% no-repeat, url(../img/Ellipse-offer2.png) 0% 20% no-repeat;
+  }
+  
+  .header_btn{
+    padding: 12px 37px;
+  }
+
+  .offer_holder{
+    margin-bottom: 230px;
+  }
+
+  .offer_title{
+    font-size: 58px;
+  }
+  
+  .offer_illustration {
+    top: -120px;
+  }
+
+  .offer_animator{
+    top: -40px;
+    right: 450px;
+  }
+
+  .offer_programmer {
+    top: 90px;
+    right: 520px;
+  }
+
+  .offer_designer {
+    top: 260px;
+    right: 645px;
+  }
+
+  .offer_photographer {
+    top: 420px;
+    right: 660px;
+  }
+
+  .discover_cards{
+    gap: 20px;
+  }
+
+  .discover_title{
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1900px){
+
+  .container{
+    padding: 36px 240px 0;
+  }
+
+  .offer_marketer{
+    top: -20px;
+    right: 5px;
+  }
+  
+  .offer_illustration{
+    top: -90px;
+    right: 300px;
+  }
+  
+  .offer_animator{
+    top: -30px;
+    right: 555px;
+  }
+  
+  .offer_programmer{
+    top: 90px;
+    right: 620px;
+  }
+  
+  .offer_designer{
+    top: 245px;
+    right: 745px;
+  }
+  
+  .offer_photographer{
+    top: 400px;
+    right: 660px;
+  }
+
+  .learn{
+    padding: 168px 244px 159px 240px;
+  }
+
+  .learn_description{
+    width: 77%;
+  }
+
+  .discover{
+    padding: 168px 240px;
+  }
+
+  .discover_list{
+    gap: 48px;
+  }
+
+  .discover_cards{
+    flex-wrap: nowrap;
+  }
+
+  .find-programm{
+    padding: 168px 240px;
+    flex-direction: row;
+  }
+
+  footer{
+    padding: 68px 240px 0;
+  }
+
+}
