@@ -432,6 +432,30 @@ footer {
   line-height: 28px;
 }
 
+.link:focus, .header_link:focus, .header_btn:focus, .offer_link:focus,
+.discover_button:focus, .discover_button_popular:focus, .see_more:focus,
+.find-programm_button:focus, .info:focus, .logo:focus, .logo_footer:focus, 
+.support:focus {
+  outline: 2px dashed #504DEE;
+  outline-offset: 3px;
+}
+
+.link:hover, .header_link:hover, .header_btn:hover, .offer_link:hover,
+.discover_button:hover, .discover_button_popular:hover, .see_more:hover,
+.find-programm_button:hover, .info:hover, .logo:hover, .logo_footer:hover, 
+.support:hover {
+  background-color: #3e3ed1;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.link:active, .header_link:active, .header_btn:active, .offer_link:active,
+.discover_button:active, .discover_button_popular:active, .see_more:active,
+.find-programm_button:active, .info:active, .logo:active, .logo_footer:active, 
+.support:active {
+  transform: scale(0.98);
+}
+
 @media screen and (min-width: 100px) {
 
   .container{
@@ -888,11 +912,13 @@ footer {
 
   .discover_cards{
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .find-programm{
     padding: 168px 240px;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   footer{
