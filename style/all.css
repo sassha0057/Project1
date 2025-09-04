@@ -28,6 +28,50 @@ header{
   font-weight: 600;
 }
 
+.dropdown-btn{
+  position: relative;
+  display: flex;
+  align-items: baseline;
+}
+
+.dropdown-list{
+  position: absolute;
+  display: none;
+  padding-top: 25px;
+  z-index: 1;
+}
+
+.dropdown-list-item{
+  background-color:  #EFEFF2;
+  border: 2px solid #19191C;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.dropdown-list-href{
+  color: #19191C;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.35s;
+}
+
+.dropdown-list-href:hover{
+  color: #504DEE;
+}
+
+.dropdown-btn:hover .dropdown-list{
+  display: block;
+}
+
+.dropdown-btn:hover .icon-courses{
+  transform: rotate(180deg);
+  filter: invert(37%) sepia(57%) saturate(7498%) hue-rotate(236deg) brightness(95%) contrast(96%);
+}
+
+.dropdown-btn:hover .link{
+  color: #504DEE;
+}
+
 .btn-box{
   display: flex;
   gap: 50px;
@@ -42,12 +86,25 @@ header{
   gap: 15px;
   color: #19191C;
   align-items: center;
+  transition: 0.35s;
+}
+
+.logo:hover{
+  color: #504DEE;
 }
 
 .link{
   color: #19191C;
   font-size: 18px;
   font-weight: 600;
+}
+
+a.link{
+  transition: 0.35s;
+}
+
+.link:hover{
+  color: #504DEE;
 }
 
 .icon-courses{
@@ -62,11 +119,36 @@ header{
   font-weight: 600;
 }
 
+p.header_link{
+  transition: 0.35s;
+}
+
+p.header_link:hover{
+  color: #504DEE;
+}
+
+a.header_link:hover{
+  color: #504DEE;
+}
+
+a.header_link:hover .icon-courses{
+  transform: rotate(180deg);
+  filter: invert(37%) sepia(57%) saturate(7498%) hue-rotate(236deg) brightness(95%) contrast(96%);
+}
+
 .header_btn{
   background-color: #19191C;
   color: #EFEFF2;
   padding: 12px 37px;
   font-weight: 700;
+  transition: 0.35s;
+  border: 2px solid transparent;
+}
+
+.header_btn:hover{
+  background-color: #EFEFF2;
+  color: #19191C;
+  border: 2px solid #19191C;
 }
 
 .offer{
@@ -102,6 +184,14 @@ header{
   line-height: 22px;
   font-weight: 700;
   margin: 62px 0 110px 0;
+  transition: 0.35s;
+  border: 2px solid transparent;
+}
+
+.button:hover{
+  background: #EFEFF2 ;
+  color: #504DEE;
+  border: 2px solid #504DEE;
 }
 
 .offer_sale{
@@ -127,6 +217,13 @@ time{
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  transition: 0.35s;
+}
+
+.offer_list > li:hover{
+  border: 2px solid transparent;
+  background-color: #19191C;
+  color: #EFEFF2;
 }
 
 .offer_marketer{
@@ -244,6 +341,14 @@ time{
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  padding-bottom: 9px;
+  border-bottom: 4px solid transparent;
+  transition: 0.35s;
+}
+
+.discover_button:hover{
+  border-bottom: 4px solid #19191C;
+  padding-bottom: 9px;
 }
 
 .see_more{
@@ -255,14 +360,27 @@ time{
   align-items: center;
 }
 
+.see_more:hover{
+  color: #504DEE;
+}
+
 .see_more_arrow{
   margin-left: 10px;
+}
+
+.see_more:hover .see_more_arrow{
+  filter: invert(37%) sepia(57%) saturate(7498%) hue-rotate(236deg) brightness(95%) contrast(96%);  
 }
 
 .discover_card-title{
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
+  transition: 0.35s;
+}
+
+.discover_card-title:hover{
+  color: #504DEE;
 }
 
 .discover_card-length{
@@ -305,6 +423,14 @@ time{
   font-size: 18px;
   line-height: 21px;
   padding: 16px 36px;
+  border: 2px solid transparent;
+  transition: 0.35s;
+}
+
+.find-programm_button:hover{
+  border: 2px solid #19191C;
+  background-color: #DEEFE4;
+  color: #19191C;
 }
 
 .input{
@@ -363,6 +489,11 @@ footer {
   font-weight: 800;
   color: #EFEFF2;
   margin-bottom: 48px;
+  transition: 0.35s;
+}
+
+.logo_footer:hover{
+  color: #504DEE;
 }
   
 .logo_footer img {
@@ -375,6 +506,11 @@ footer {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 28px;
+  transition: 0.35s;
+}
+
+.support:hover{
+  color: #504DEE;
 }
   
 .social_media a {
@@ -385,7 +521,6 @@ footer {
   
 .social_media img {
   width: 24px;
-
 }
     
 .sitemap_title {
@@ -408,6 +543,11 @@ footer {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  transition: 0.35s;
+}
+
+.info:hover{
+  color: #504DEE;
 }
   
 .footer-copyright {
@@ -416,13 +556,18 @@ footer {
   justify-content: center;
   margin-left: 65px;
 }
-  
+
 .pp {
   color: #6D6D77;
   font-size: 18px;
   margin: 0px 28px 0px 0px;
   font-weight: 400;
   line-height: 28px;
+  transition: 0.35s;
+}
+
+.pp:hover{
+  color: #FBFBFC;
 }
 
 .info_box3 {
@@ -430,30 +575,11 @@ footer {
   color: #6D6D77;
   font-weight: 400;
   line-height: 28px;
+  transition: 0.35s;
 }
 
-.link:focus, .header_link:focus, .header_btn:focus, .offer_link:focus,
-.discover_button:focus, .discover_button_popular:focus, .see_more:focus,
-.find-programm_button:focus, .info:focus, .logo:focus, .logo_footer:focus, 
-.support:focus {
-  outline: 2px dashed #504DEE;
-  outline-offset: 3px;
-}
-
-.link:hover, .header_link:hover, .header_btn:hover, .offer_link:hover,
-.discover_button:hover, .discover_button_popular:hover, .see_more:hover,
-.find-programm_button:hover, .info:hover, .logo:hover, .logo_footer:hover, 
-.support:hover {
-  background-color: #3e3ed1;
-  color: #fff;
-  transition: all 0.3s ease;
-}
-
-.link:active, .header_link:active, .header_btn:active, .offer_link:active,
-.discover_button:active, .discover_button_popular:active, .see_more:active,
-.find-programm_button:active, .info:active, .logo:active, .logo_footer:active, 
-.support:active {
-  transform: scale(0.98);
+.info_box3:hover{
+  color: #FBFBFC;
 }
 
 @media screen and (min-width: 100px) {
